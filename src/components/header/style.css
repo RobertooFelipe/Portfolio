@@ -127,6 +127,7 @@
 @media only screen and (max-width: 670px) {
     .menu {
         display: inline;
+        z-index: 4;
     }
 
     .NameHeader {
@@ -173,7 +174,6 @@
         outline: none;
         cursor: pointer;
         margin-right: 20px;
-        z-index: 4;
     }
 
     .InconList .line {
@@ -184,7 +184,6 @@
         margin-block: 10px;
         border-radius: 4px;
         transition: transform .5s, opacity .25s;
-        z-index: 4;
     }
 
     .InconList.active .line:nth-child(1) {
@@ -203,8 +202,6 @@
         width: 35px;
         margin-top: -3px;
     }
-
-    /* -------------------- */
 
     .DarknessBG.active {
         top: 0;
@@ -243,5 +240,9 @@
         text-align: center;
         margin-top: 30px;
         box-shadow: 0px 5px 0px var(--lightBlue);
+    }
+
+    .ListaMenu ul:nth-child(1) {
+        margin-top: 80px;
     }
 }

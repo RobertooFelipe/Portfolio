@@ -16,7 +16,7 @@ export function Header() {
                     </li>
                 </div>
                 <div className='menu'>
-                    <button className='InconList'>
+                    <button className='InconList' onClick={InconListActive}>
                         <span className='line'></span>
                         <span className='line'></span>
                         <span className='line'></span>
@@ -43,12 +43,19 @@ const DarknessBG = document.querySelector(".DarknessBG")
 const ListaMenu = document.querySelector(".ListaMenu")
 const Options = document.querySelector(".Options")
 
-const InconListActive = () => {
-    console.log("clic")
-    InconList?.classList.toggle("active")
-    DarknessBG?.classList.toggle("active")
-    ListaMenu?.classList.toggle("active")
-    Options?.classList.toggle("active")
+
+function InconListActive() {
+
+    if (InconList?.classList.contains('active')) {
+        InconList?.classList.remove('active')
+        DarknessBG?.classList.remove("active")
+        ListaMenu?.classList.remove("active")
+        Options?.classList.remove("active")
+    } else {
+        InconList?.classList.toggle("active")
+        DarknessBG?.classList.toggle("active")
+        ListaMenu?.classList.toggle("active")
+        Options?.classList.toggle("active")
+    }
 };
 
-InconList?.addEventListener('click', InconListActive)
