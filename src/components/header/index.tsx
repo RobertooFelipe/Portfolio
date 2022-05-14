@@ -44,9 +44,9 @@ const ListaMenu = document.querySelector(".ListaMenu")
 const Options = document.querySelector(".Options")
 
 
-function InconListActive() {
-
+async function InconListActive() {
     if (InconList?.classList.contains('active')) {
+        console.log("clicou")
         InconList?.classList.remove('active')
         DarknessBG?.classList.remove("active")
         ListaMenu?.classList.remove("active")

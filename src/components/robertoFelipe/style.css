@@ -17,11 +17,88 @@
 /* ------------------------------------------------- */
 
 
-@media only screen and (min-width: 900px) {}
+@media only screen and (min-width: 900px) {
+    .return {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nameCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .title {
+        width: 200px;
+        order: 1;
+    }
+
+    .title h1 {
+        color: var(--lightBlue);
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        text-decoration: underline #fff;
+        width: 500px;
+    }
+
+    .title h2 {
+        color: var(--colorFontDF);
+        font-weight: 300;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+        width: 500px;
+    }
+
+    .cardBoasVindas {
+        order: 2;
+    }
+
+    .imgRoberto {
+        order: 3;
+    }
+
+    .imgRoberto img {
+        width: 800px;
+    }
+
+    .cardBoasVindas {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        order: 3;
+    }
+
+    .cardBoasVindas section {
+        background-color: #fff;
+        border-radius: 30px;
+        color: #000;
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 5px 5px 0px var(--lightBlue);
+    }
+
+}
 
 @media only screen and (max-width: 900px) {}
 
 @media only screen and (max-width: 670px) {
+
+    .return {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        order: 1;
+    }
+
     .title h1 {
         color: var(--lightBlue);
         text-align: center;
@@ -40,6 +117,7 @@
     .imgRoberto {
         display: flex;
         justify-content: center;
+        order: 2;
     }
 
     .imgRoberto img {
@@ -50,6 +128,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        order: 3;
     }
 
     .cardBoasVindas section {
