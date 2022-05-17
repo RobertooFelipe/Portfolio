@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import './style.css';
 
+
 export function Header() {
+
+    const [menuOpen, setMenuOpen] = useState(false)
+
+    function InconListActive() {
+        setMenuOpen(state => !state)
+    };
+
     return (
         <div>
             <header className='Header'>
@@ -16,7 +25,7 @@ export function Header() {
                     </li>
                 </div>
                 <div className='menu'>
-                    <button className='InconList' onClick={InconListActive}>
+                    <button className={`InconList ${menuOpen && "active"}`} onClick={InconListActive} >
                         <span className='line'></span>
                         <span className='line'></span>
                         <span className='line'></span>
@@ -24,9 +33,9 @@ export function Header() {
                 </div>
             </header>
 
-            <div className='DarknessBG'>
-                <div className='Options'>
-                    <li className='ListaMenu'>
+            <div className={`DarknessBG ${menuOpen && "active"}`}>
+                <div className={`Options ${menuOpen && "active"}`}>
+                    <li className={`ListaMenu ${menuOpen && "active"}`}>
                         <ul>Competências</ul>
                         <ul>Projetos</ul>
                         <ul>Sobre Mim</ul>
@@ -38,24 +47,4 @@ export function Header() {
     )
 }
 
-const InconList = document.querySelector(".InconList")
-const DarknessBG = document.querySelector(".DarknessBG")
-const ListaMenu = document.querySelector(".ListaMenu")
-const Options = document.querySelector(".Options")
-
-
-async function InconListActive() {
-    if (InconList?.classList.contains('active')) {
-        console.log("clicou")
-        InconList?.classList.remove('active')
-        DarknessBG?.classList.remove("active")
-        ListaMenu?.classList.remove("active")
-        Options?.classList.remove("active")
-    } else {
-        InconList?.classList.toggle("active")
-        DarknessBG?.classList.toggle("active")
-        ListaMenu?.classList.toggle("active")
-        Options?.classList.toggle("active")
-    }
-};
 
