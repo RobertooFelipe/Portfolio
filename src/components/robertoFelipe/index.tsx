@@ -1,13 +1,12 @@
 import './style.css';
+import { useMediaQuery } from 'usehooks-ts'
 
-
-// var altura = window.screen.height;
-var windowWidth = window.innerWidth;
 
 export function RobertoFelipe() {
+    const matches = useMediaQuery('(min-width: 670px)')
 
-    if (windowWidth <= 670) {
-        console.log("if")
+    if (matches === false) {
+
         return (
             <div className='return'>
 
@@ -30,8 +29,7 @@ export function RobertoFelipe() {
             </div>
         )
     } else {
-        console.log("else")
-        console.log(windowWidth)
+
         return (
             <div className='return'>
                 <div className='nameCard'>
