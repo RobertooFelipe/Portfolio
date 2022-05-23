@@ -16,7 +16,7 @@
 
 /* ------------------------------------------------- */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1250px) {
     .menu {
         display: none;
     }
@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1250px) {
     .menu {
         display: none;
     }
@@ -110,6 +110,7 @@
     .ListaHeader {
         display: flex;
         flex-direction: row;
+        margin-top: 6px;
     }
 
     .ListaHeader :hover {
