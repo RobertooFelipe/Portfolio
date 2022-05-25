@@ -17,7 +17,7 @@
 /* ------------------------------------------------- */
 
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1401px) {
     .return {
         display: flex;
         justify-content: space-around;
@@ -86,7 +86,7 @@
 
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1400px) {
     .return {
         display: flex;
         flex-direction: row;

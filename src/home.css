@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+/* ----------------root colors---------------------- */
+
+:root {
+    --lightBlue: #00FFFF;
+    --BackColorDF: #0E161F;
+    --colorFontDF: #b6b6b6;
+}
+
+/* ------------------------------------------------- */
+
+@media only screen and (min-width: 1401px) {
+    .card {
+        width: 1300px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 80px;
+        text-align: center;
+    }
+
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -25px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -25px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -90px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -50px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        width: 800px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 80px;
+        text-align: center;
+    }
+
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -25px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -25px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -90px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -50px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .card {
+        width: 300px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 25px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -50px;
+        right: 0px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.bodySection {
+    width: 100%;
+    min-height: 800px;
+    background-color: var(--BackColorDF);
+    box-shadow: 0px -5px 0px #00FFFF;
+    margin-top: 100px;
+}
+
+.circle {
+    background: var(--lightBlue);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleAbout h1 {
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-size: 35px;
+    color: var(--lightBlue);
+    text-decoration: underline #fff;
+}

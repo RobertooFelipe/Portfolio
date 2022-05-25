@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+/* ----------------root colors---------------------- */
+
+:root {
+    --lightBlue: #00FFFF;
+    --BackColorDF: #0E161F;
+    --colorFontDF: #b6b6b6;
+}
+
+/* ------------------------------------------------- */
+
+@media only screen and (min-width: 1401px) {}
+
+@media only screen and (max-width: 1400px) {}
+
+@media only screen and (max-width: 670px) {}
+
+.cardCompetencia {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 0px var(--lightBlue);
+    z-index: 1;
+}
+
+
+.cardCompetencia p {
+    color: #000;
+    z-index: 2;
+}
