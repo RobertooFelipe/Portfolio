@@ -1,6 +1,7 @@
 import { Header } from "./components/header";
 import { RobertoFelipe } from "./components/robertoFelipe";
 import { Competencias } from "./components/competencias";
+import { Projetos } from "./components/projetos";
 import './home.css';
 
 function Portfolio() {
@@ -33,11 +34,37 @@ function Portfolio() {
           </article>
         </div>
 
-        <div className="Competencias">
-          <Competencias Competencia="comp" />
+
+        <div className="compMe">
+          <div className="titleComp">
+            <h1>Competências</h1>
+          </div>
+          <div className="Competencias">
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+            <Competencias Competencia="comp" />
+          </div>
         </div>
 
 
+        <div className="aboutMe">
+          <div className="titleAbout">
+            <h1>Projetos</h1>
+          </div>
+          <Projetos />
+        </div>
       </section>
     </div>
   );
