@@ -222,7 +222,7 @@
     margin-top: 80px;
     margin-left: 500px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 35px;
     align-items: center;
     cursor: pointer;
