@@ -16,11 +16,155 @@
 
 /* ------------------------------------------------- */
 
-@media only screen and (min-width: 1401px) {}
+@media only screen and (min-width: 1401px) {
+    .card {
+        width: 1300px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
 
-@media only screen and (max-width: 1400px) {}
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
 
-@media only screen and (max-width: 670px) {}
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -25px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -25px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -90px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -50px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        width: 800px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 80px;
+        text-align: center;
+    }
+
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -25px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -25px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -90px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -50px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .card {
+        width: 300px;
+        position: relative;
+        margin: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-inner {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 25px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .circle:nth-child(1) {
+        top: -25px;
+        left: -20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle:nth-child(2) {
+        bottom: -50px;
+        right: 0px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle:nth-child(3) {
+        bottom: 100px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .circle:nth-child(4) {
+        bottom: 20px;
+        left: -20px;
+        width: 40px;
+        height: 40px;
+    }
+}
 
 .cardCompetencia {
     background-color: #fff;
@@ -45,4 +189,48 @@
 .cardCompetencia p {
     color: #000;
     z-index: 2;
+}
+
+
+
+
+
+
+
+
+/* R E S P O N S I V E */
+
+.imgProjects img {
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(5px 5px 0px var(--lightBlue));
+    border-radius: 30px;
+}
+
+.textProject {
+    margin-left: 40px;
+}
+
+.gitHub {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    border-style: none;
+    box-shadow: 5px 5px 0px var(--lightBlue);
+    margin-top: 80px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gitHub:hover {
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px var(--lightBlue);
+    transition: 1s;
 }
