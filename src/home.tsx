@@ -63,7 +63,12 @@ function Portfolio() {
           <div className="titleAbout">
             <h1>Projetos</h1>
           </div>
-          <Projetos />
+          <div className="cardProjetos">
+            <Projetos />
+            <Projetos />
+            <Projetos />
+            <Projetos />
+          </div>
         </div>
       </section>
     </div>

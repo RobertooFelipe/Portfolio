@@ -65,6 +65,45 @@
         width: 60px;
         height: 60px;
     }
+
+    .imgProjects img {
+        width: 400px;
+        height: 400px;
+        filter: drop-shadow(5px 5px 0px var(--lightBlue));
+        border-radius: 30px;
+    }
+
+    .textProject {
+        margin-left: 40px;
+    }
+
+    .gitHub {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #000;
+        border-style: none;
+        box-shadow: 5px 5px 0px var(--lightBlue);
+        margin-top: 70px;
+        margin-left: 500px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 35px;
+        align-items: center;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .gitHub img {
+        height: 50px;
+    }
+
+    .gitHub:hover {
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px var(--lightBlue);
+        transition: 1s;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -85,6 +124,8 @@
         border-radius: 30px;
         padding: 80px;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .circle:nth-child(1) {
@@ -114,6 +155,46 @@
         width: 60px;
         height: 60px;
     }
+
+    .imgProjects img {
+        width: 300px;
+        height: 300px;
+        filter: drop-shadow(5px 5px 0px var(--lightBlue));
+        border-radius: 30px;
+    }
+
+    .textProject {
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    .gitHub {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #000;
+        border-style: none;
+        box-shadow: 5px 5px 0px var(--lightBlue);
+        margin-top: 40px;
+        margin-left: 250px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 35px;
+        align-items: center;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .gitHub img {
+        height: 50px;
+    }
+
+    .gitHub:hover {
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px var(--lightBlue);
+        transition: 1s;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -135,6 +216,8 @@
         padding: 25px;
         text-align: center;
         font-size: 14px;
+        display: flex;
+        flex-direction: column;
     }
 
     .circle:nth-child(1) {
@@ -163,6 +246,46 @@
         left: -20px;
         width: 40px;
         height: 40px;
+    }
+
+    .imgProjects img {
+        width: 250px;
+        height: 250px;
+        filter: drop-shadow(5px 5px 0px var(--lightBlue));
+        border-radius: 30px;
+    }
+
+    .textProject {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .gitHub {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #000;
+        border-style: none;
+        box-shadow: 5px 5px 0px var(--lightBlue);
+        margin-top: 40px;
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 35px;
+        align-items: center;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .gitHub img {
+        height: 50px;
+    }
+
+    .gitHub:hover {
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px var(--lightBlue);
+        transition: 1s;
     }
 }
 
@@ -199,38 +322,3 @@
 
 
 /* R E S P O N S I V E */
-
-.imgProjects img {
-    width: 400px;
-    height: 400px;
-    filter: drop-shadow(5px 5px 0px var(--lightBlue));
-    border-radius: 30px;
-}
-
-.textProject {
-    margin-left: 40px;
-}
-
-.gitHub {
-    width: 200px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #fff;
-    color: #000;
-    border-style: none;
-    box-shadow: 5px 5px 0px var(--lightBlue);
-    margin-top: 80px;
-    margin-left: 500px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 35px;
-    align-items: center;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.gitHub:hover {
-    border-radius: 20px;
-    box-shadow: 10px 10px 0px var(--lightBlue);
-    transition: 1s;
-}

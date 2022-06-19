@@ -64,6 +64,13 @@
         width: 60px;
         height: 60px;
     }
+
+    .cardProjetos {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -112,6 +119,13 @@
         left: -50px;
         width: 60px;
         height: 60px;
+    }
+
+    .cardProjetos {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        overflow-x: scroll;
     }
 }
 
@@ -162,6 +176,13 @@
         left: -20px;
         width: 40px;
         height: 40px;
+    }
+
+    .cardProjetos {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow-x: scroll;
     }
 }
 
@@ -220,6 +241,8 @@
     overflow-y: scroll;
 }
 
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -229,6 +252,7 @@
 ::-webkit-scrollbar-track {
     /* box-shadow: inset 1px 0 0 rgb(255, 255, 255); */
     background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 4px;
 }
 
 /* Handle */
