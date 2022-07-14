@@ -1,16 +1,25 @@
 import './style.css';
 
-interface PropsCompetencia {
-    Competencia: string;
-}
+export function Competencias() {
 
-export function Competencias({ Competencia }: PropsCompetencia) {
+    const competencias = [
+        "JavaScript",
+        "PHP",
+        "MySQL"
+    ]
+
 
     return (
-        <div className='cardCompetencia'>
-            <p>{Competencia}</p>
-        </div>
+        <>
+            {competencias.map(index => {
+                <div className='cardCompetencia'>
+                    <p>{index}</p>
+                </div>
+            })}
+        </>
     )
+
+
 }
 
 

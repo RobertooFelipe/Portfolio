@@ -2,6 +2,7 @@ import { Header } from "./components/header";
 import { RobertoFelipe } from "./components/robertoFelipe";
 import { Competencias } from "./components/competencias";
 import { Projetos } from "./components/projetos";
+import { Contato } from "./components/contato";
 import './home.css';
 
 function Portfolio() {
@@ -40,21 +41,7 @@ function Portfolio() {
             <h1>Competências</h1>
           </div>
           <div className="Competencias">
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
-            <Competencias Competencia="comp" />
+            <Competencias />
           </div>
         </div>
 
@@ -68,6 +55,16 @@ function Portfolio() {
             <Projetos />
             <Projetos />
             <Projetos />
+          </div>
+        </div>
+
+
+        <div className="contactMe">
+          <div className="titleAbout">
+            <h1>Projetos</h1>
+          </div>
+          <div>
+            <Contato />
           </div>
         </div>
       </section>
