@@ -12,9 +12,11 @@ export function Competencias() {
     return (
         <>
             {competencias.map(index => {
-                <div className='cardCompetencia'>
-                    <p>{index}</p>
-                </div>
+                return (
+                    <div className='cardCompetencia'>
+                        <p>{index}</p>
+                    </div>
+                )
             })}
         </>
     )
