@@ -60,8 +60,8 @@ function Portfolio() {
 
 
         <div className="contactMe">
-          <div className="titleAbout">
-            <h1>Projetos</h1>
+          <div className="titleAbout aboutMe">
+            <h1>Contato</h1>
           </div>
           <div>
             <Contato />
