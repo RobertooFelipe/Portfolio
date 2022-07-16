@@ -189,8 +189,9 @@
 
     .InconList.active .line:nth-child(1) {
         transform: translateY(13px) rotate(45deg);
-        width: 35px;
+        width: 25px;
         height: 4px;
+        position: fixed;
     }
 
     .InconList.active .line:nth-child(2) {
@@ -200,8 +201,10 @@
     .InconList.active .line:nth-child(3) {
         transform: translateY(13px) rotate(-45deg);
         height: 4px;
-        width: 35px;
+        width: 25px;
         margin-top: -3px;
+        position: fixed;
+        margin-top: 4px;
     }
 
     .DarknessBG.active {

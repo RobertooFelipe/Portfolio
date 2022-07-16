@@ -3,7 +3,7 @@ import './style.css';
 export function Projetos() {
 
     return (
-        <article className="card">
+        <article className="cardProject">
             <div className="circle"></div>
             <div className="circle"></div>
             <div className="circle"></div>

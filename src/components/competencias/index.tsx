@@ -8,7 +8,6 @@ export function Competencias() {
         "MySQL"
     ]
 
-
     return (
         <>
             {competencias.map(index => {
@@ -20,8 +19,6 @@ export function Competencias() {
             })}
         </>
     )
-
-
 }
 
 

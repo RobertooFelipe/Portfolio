@@ -16,29 +16,125 @@
 
 /* ------------------------------------------------- */
 
-@media only screen and (min-width: 1401px) {}
+@media only screen and (min-width: 1401px) {
 
-@media only screen and (max-width: 1400px) {}
+    .textContact,
+    .Contacts {
+        margin: 100px;
+        min-width: 400px;
+    }
 
-@media only screen and (max-width: 670px) {}
+    h2 {
+        margin-top: 40px;
+    }
 
+    .bgContact {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: #00000080;
+        box-shadow: 0 -5px 0 var(--lightBlue);
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
 
-.bgContact {
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 -5px 0 var(--lightBlue);
-    margin-top: 50px;
+    .verticalLine {
+        background-color: var(--lightBlue);
+        height: 250px;
+        width: 10px;
+        border-radius: 50px;
+    }
 }
 
-.textContact {
-    margin: 100px;
+@media only screen and (max-width: 1400px) {
+    .Contacts {
+        margin-top: 40px;
+    }
+
+    .textContact {
+        margin: 20px;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .bgContact {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: #00000080;
+        box-shadow: 0 -5px 0 var(--lightBlue);
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .verticalLine {
+        background-color: var(--lightBlue);
+        height: 6px;
+        width: 670px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
 }
 
-h2 {
-    margin-top: 40px;
+@media only screen and (max-width: 670px) {
+    .Contacts {
+        margin-top: -80px;
+    }
+
+    .bgContact {
+        position: absolute;
+        width: 100%;
+        min-height: 700px;
+        background-color: #00000080;
+        box-shadow: 0 -5px 0 var(--lightBlue);
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bgContact {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: #00000080;
+        box-shadow: 0 -5px 0 var(--lightBlue);
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .verticalLine {
+        background-color: var(--lightBlue);
+        height: 10px;
+        width: 250px;
+        border-radius: 50px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h3 {
     color: var(--lightBlue);
@@ -54,6 +150,7 @@ h3 {
     box-shadow: 3px 3px 0px var(--lightBlue);
     margin-top: 10px;
     margin-left: 0;
+    display: flex;
     gap: 25px;
     align-items: center;
     cursor: pointer;
@@ -68,4 +165,11 @@ h3 {
     border-radius: 20px;
     box-shadow: 7px 7px 0px var(--lightBlue);
     transition: 1s;
+}
+
+.buttonsContact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }

@@ -120,7 +120,7 @@
     }
 
     .imgRoberto img {
-        width: 600px;
+        width: 500px;
     }
 
     .cardBoasVindas {
@@ -141,7 +141,7 @@
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 850px) {
 
     .return {
         display: flex;

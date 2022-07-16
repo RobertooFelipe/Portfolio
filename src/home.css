@@ -75,9 +75,8 @@
 
 @media only screen and (max-width: 1400px) {
     .card {
-        width: 800px;
+        width: 60%;
         position: relative;
-        margin: 100px;
         display: flex;
         justify-content: center;
     }
@@ -216,7 +215,6 @@
 
 /* ------------------------- */
 
-
 .compMe {
     display: flex;
     justify-content: center;
@@ -241,27 +239,22 @@
     overflow-y: scroll;
 }
 
+/* ------------------------- */
 
-
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-    /* box-shadow: inset 1px 0 0 rgb(255, 255, 255); */
     background-color: rgba(255, 255, 255, 0.103);
     border-radius: 4px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--lightBlue);
     border-radius: 4px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--hoverlightBlue);
 }
