@@ -1,6 +1,13 @@
 import './style.css';
 
-export function Projetos() {
+export function Projetos(Props: any) {
+
+    interface Props {
+        title: string;
+        desc?: string;
+        link?: string;
+        img?: string;
+    }
 
     return (
         <article className="cardProject">
@@ -11,15 +18,14 @@ export function Projetos() {
 
             <div className="card-inner">
                 <div className='imgProjects'>
-                    <img src="\imagens\PortfolioWall.png" alt="" />
+                    <img src={Props.img} alt="" />
                 </div>
                 <div className='textButton'>
+                    <h1>{Props.title}</h1>
                     <p className='textProject'>
-                        Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha
-                        imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar
-                        diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização.
+                        {Props.desc}
                     </p>
-                    <a href="https://github.com/RobertooFelipe/Portfolio"><button className='gitHub'><img src="\imagens\icons8-github.svg" alt="" />Git Hub</button></a>
+                    <a href={Props.link}><button className='gitHub'><img src="\imagens\icons8-github.svg" alt="" />Git Hub</button></a>
                 </div>
 
             </div>

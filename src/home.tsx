@@ -56,7 +56,8 @@ function Portfolio() {
             <h1>Projetos</h1>
           </div>
           <div className="cardProjetos">
-            <Projetos />
+            <Projetos title={"Portfólio"} img={"\imagens\PortfolioWall.png"} link={"https://github.com/RobertooFelipe/Portfolio"} desc={"Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização."} />
+            <Projetos title={"teste"} />
           </div>
         </div>
 
