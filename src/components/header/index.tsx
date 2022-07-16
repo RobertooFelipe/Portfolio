@@ -18,10 +18,10 @@ export function Header() {
                 </div>
                 <div>
                     <li className='ListaHeader'>
-                        <ul>Competências</ul>
-                        <ul>Projetos</ul>
-                        <ul>Sobre Mim</ul>
-                        <ul>Contato</ul>
+                        <a href="#Competencias"><ul>Competências</ul></a>
+                        <a href="#Projetos"><ul>Projetos</ul></a>
+                        <a href="#AboutMe"><ul>Sobre Mim</ul></a>
+                        <a href="#Contato"><ul>Contato</ul></a>
                     </li>
                 </div>
                 <div className='menu'>
@@ -36,10 +36,10 @@ export function Header() {
             <div className={`DarknessBG ${menuOpen && "active"}`}>
                 <div className={`Options ${menuOpen && "active"}`}>
                     <li className={`ListaMenu ${menuOpen && "active"}`}>
-                        <ul>Competências</ul>
-                        <ul>Projetos</ul>
-                        <ul>Sobre Mim</ul>
-                        <ul>Contato</ul>
+                        <a href="#Competencias"><ul>Competências</ul></a>
+                        <a href="#Projetos"><ul>Projetos</ul></a>
+                        <a href="#AboutMe"><ul>Sobre Mim</ul></a>
+                        <a href="#Contato"><ul>Contato</ul></a>
                     </li>
                 </div>
             </div>

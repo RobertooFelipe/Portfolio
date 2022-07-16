@@ -14,7 +14,7 @@ function Portfolio() {
 
       <section className="bodySection">
 
-        <div className="aboutMe">
+        <div className="aboutMe" id="AboutMe">
           <div className="titleAbout">
             <h1>Sobre Mim</h1>
           </div>
@@ -51,7 +51,7 @@ function Portfolio() {
         </div>
 
 
-        <div className="aboutMe">
+        <div className="aboutMe" id="Projetos">
           <div className="titleAbout">
             <h1>Projetos</h1>
           </div>
@@ -64,7 +64,7 @@ function Portfolio() {
         </div>
 
 
-        <div className="contactMe">
+        <div className="contactMe" id="Contato">
           <div className="titleAbout aboutMe">
             <h1>Contato</h1>
           </div>
