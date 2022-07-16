@@ -68,7 +68,7 @@
 
     .imgProjects img {
         width: 400px;
-        height: 400px;
+        height: 300px;
         filter: drop-shadow(5px 5px 0px var(--lightBlue));
         border-radius: 30px;
     }

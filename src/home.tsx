@@ -57,9 +57,6 @@ function Portfolio() {
           </div>
           <div className="cardProjetos">
             <Projetos />
-            <Projetos />
-            <Projetos />
-            <Projetos />
           </div>
         </div>
 

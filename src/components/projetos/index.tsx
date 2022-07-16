@@ -11,16 +11,15 @@ export function Projetos() {
 
             <div className="card-inner">
                 <div className='imgProjects'>
-                    <img src="\imagens\teste_ft.png" alt="" />
+                    <img src="\imagens\PortfolioWall.png" alt="" />
                 </div>
                 <div className='textButton'>
                     <p className='textProject'>
-                        Tenho 18 anos, sou pró-ativo assíduo, sempre motivado para o trabalho em equipe, tenho respeito, franqueza e busco sempre o conhecimento e aprimoramento técnico/profissional e de outros assuntos de meu interesse cultural, tenho um bom relacionamento em geral... Além da programação, tenho o UI/UX designer como hobby, já entreguei diversos produtos (Publicações, logos, promoções, posts de engajamento,...) desta área para clientes.
-                        Já li livros como: O Poder, Mais Esperto Que o Diabo, Pai Rico Pai Pobre. Atualmente estou lendo O Poder do Hábito.
-                        Tenho 18 anos, sou pró-ativo assíduo, sempre motivado para o trabalho em equipe, tenho respeito, franqueza e busco sempre o conhecimento e aprimoramento técnico/profissional e de outros assuntos de meu interesse cultural, tenho um bom relacionamento em geral... Além da programação, tenho o UI/UX designer como hobby, já entreguei diversos produtos (Publicações, logos, promoções, posts de engajamento,...) desta área para clientes.
-                        Já li livros como: O Poder, Mais Esperto Que o Diabo, Pai Rico Pai Pobre. Atualmente estou lendo O Poder do Hábito.
+                        Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha
+                        imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar
+                        diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização.
                     </p>
-                    <button className='gitHub'><img src="\imagens\icons8-github.svg" alt="" />Git Hub</button>
+                    <a href="https://github.com/RobertooFelipe/Portfolio"><button className='gitHub'><img src="\imagens\icons8-github.svg" alt="" />Git Hub</button></a>
                 </div>
 
             </div>
