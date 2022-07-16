@@ -3,9 +3,26 @@ import './style.css';
 export function Competencias() {
 
     const competencias = [
+        "React JS",
         "JavaScript",
+        "TypeScript",
+        "JQuery",
+        "React Native",
         "PHP",
-        "MySQL"
+        "MySQL",
+        "T-SQL",
+        "NodeJS",
+        "Express",
+        "HTML",
+        "CSS",
+        "UI/UX",
+        "Git",
+        "VUE",
+        "Angular",
+        "DevOps",
+        "Scrum",
+        "Ingles",
+        "Espanhol"
     ]
 
     return (
