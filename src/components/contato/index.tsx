@@ -38,7 +38,7 @@ export function Contato() {
                 <br />
                 <br />
                 <p>
-                    Projeto desenvolvido por <a href="https://github.com/RobertooFelipe">©RobertooFelipe</a>
+                    Projeto desenvolvido por <a href="https://github.com/RobertooFelipe">&copy;RobertooFelipe</a>
                 </p>
             </div>
         </div>
