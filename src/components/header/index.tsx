@@ -16,7 +16,7 @@ export function Header() {
                 <div>
                     <h1 className='NameHeader'>Roberto Felipe</h1>
                 </div>
-                <div>
+                <div className='listOptions'>
                     <li className='ListaHeader'>
                         <a href="#Competencias"><ul>Competências</ul></a>
                         <a href="#Projetos"><ul>Projetos</ul></a>

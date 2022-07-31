@@ -73,6 +73,11 @@
         border-radius: 30px;
     }
 
+    .textButton h1 {
+        margin-bottom: 20px;
+        text-decoration: underline var(--lightBlue);
+    }
+
     .textProject {
         margin-left: 40px;
     }
@@ -163,6 +168,11 @@
         border-radius: 30px;
     }
 
+    .textButton h1 {
+        margin-bottom: 20px;
+        text-decoration: underline var(--lightBlue);
+    }
+
     .textProject {
         margin-left: 40px;
         font-size: 12px;
@@ -250,9 +260,14 @@
 
     .imgProjects img {
         width: 250px;
-        height: 250px;
+        height: 200px;
         filter: drop-shadow(5px 5px 0px var(--lightBlue));
         border-radius: 30px;
+    }
+
+    .textButton h1 {
+        margin-top: 30px;
+        text-decoration: underline var(--lightBlue);
     }
 
     .textProject {

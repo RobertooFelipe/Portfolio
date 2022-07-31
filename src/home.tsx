@@ -63,16 +63,10 @@ function Portfolio() {
               desc={"Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização."}
             />
             <Projetos
-              title={"Portfólio"}
-              img={"/imagens/PortfolioWall.png"}
-              link={"https://github.com/RobertooFelipe/Portfolio"}
-              desc={"Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização."}
-            />
-            <Projetos
-              title={"Portfólio"}
-              img={"/imagens/PortfolioWall.png"}
-              link={"https://github.com/RobertooFelipe/Portfolio"}
-              desc={"Neste projeto, fiz o meu portfólio, aprensentando um pouco mais sobre o meu lado profissional. O intuito deste projeto é agragar valor para a minha imagem profissional, este projeto é totalmente autoral, todas ideias vieram de mim mesmo, desde o UI/UX até o código. Este é um projeto em que irá apresentar diversar novas features conforme o tempo, já existem diversas ideias a serem implementadas, peço para que aguardem até o a disponibilização de uma nova atualização."}
+              title={"CRUD Concepts - Express"}
+              img={"/imagens/Express-CRUD.png"}
+              link={"https://github.com/RobertooFelipe/NodeExpress-CRUD"}
+              desc={"Neste projeto, criei uma aplicação bem simpres utilizando o Express, aplicando todos os métodos como POST, PUT, GET e DELETE em uma página por HTTP. Este projeto funcionará como uma base de pesquisa para meu próximo projeto, o Tasks to Do, cujo já está em produção!"}
             />
           </div>
         </div>
