@@ -1,41 +1,33 @@
-import './style.css';
+import "./style.css";
 
 export function Competencias() {
+  const competencias = [
+    "TypeScript",
+    "JavaScript",
+    "React JS",
+    "React Native",
+    "NodeJS",
+    "Express",
+    "Git",
+    "PHP",
+    "SQL Server",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Styled Components",
+    "UI/UX",
+    "React Hooks",
+  ];
 
-    const competencias = [
-        "React JS",
-        "JavaScript",
-        "TypeScript",
-        "JQuery",
-        "React Native",
-        "PHP",
-        "MySQL",
-        "T-SQL",
-        "NodeJS",
-        "Express",
-        "HTML",
-        "CSS",
-        "UI/UX",
-        "Git",
-        "VUE",
-        "Angular",
-        "DevOps",
-        "Scrum",
-        "Ingles",
-        "Espanhol"
-    ]
-
-    return (
-        <>
-            {competencias.map(index => {
-                return (
-                    <div className='cardCompetencia'>
-                        <p>{index}</p>
-                    </div>
-                )
-            })}
-        </>
-    )
+  return (
+    <>
+      {competencias.map((index) => {
+        return (
+          <div className="cardCompetencia">
+            <p>{index}</p>
+          </div>
+        );
+      })}
+    </>
+  );
 }
-
-
