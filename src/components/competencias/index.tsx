@@ -2,11 +2,12 @@ import "./style.css";
 
 export function Competencias() {
   const competencias = [
-    "TypeScript",
-    "JavaScript",
     "React JS",
     "React Native",
+    "TypeScript",
+    "JavaScript",
     "NodeJS",
+    "Python",
     "Express",
     "Git",
     "PHP",
